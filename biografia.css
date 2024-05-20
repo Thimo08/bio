@@ -1,0 +1,71 @@
+
+
+:root{
+    /*VARIÁVEL CSS*/
+    --PRINCIPAL-cinza:#f2f2f2;
+    --SECUNDARIO-preto:#3e3e3e;
+    --TERCIARIO-cinzinha:#2e2e2e;
+    --corzinha: #d3d3d3;
+    --FONTDESTAQUE:Georgia;
+}
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:var(--corzinha);
+}
+
+.corpo {
+    max-width: 800px; /*max-width é uma propriedade CSS que especifica a largura máxima que um elemento pode ter.*/
+    margin: 20px auto;
+    background-color: var(--PRINCIPAL-cinza);
+    padding: 20px;
+    border-radius: 5px; /*arredondar os cantos de um elemento, como caixas ou botões*/
+    box-shadow: 0 0 10px var(--SECUNDARIO-preto);
+}
+
+
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    flex-grow: 1;  /*o elemento .info ocupe o máximo de espaço possível*/
+}
+
+h1, h3 {
+    color: var(--SECUNDARIO-preto);
+    font-weight: 820;
+    font-size: 2em;
+    font-style: oblique;
+    font-stretch:extra-condensed; /* definida para esticar a fonte o máximo possível horizontalmente.*/
+    font-family: var(--FONTDESTAQUE);
+}
+
+p {
+    color: var(--TERCIARIO-cinzinha);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+td{
+    color: var(--TERCIARIO-cinzinha);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{ 
+    font-size: 40px;
+}
